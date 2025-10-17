@@ -68,6 +68,17 @@ export default defineConfig({
 
       '/advanced/': [
         {
+          text: 'Advanced Workflow Patterns',
+          items: [
+            { text: 'Loop Patterns', link: '/advanced/loops' },
+            { text: 'Subgraph Composition', link: '/advanced/subgraphs' },
+            { text: 'Human-in-the-Loop', link: '/advanced/human-in-loop' },
+            { text: 'Dynamic Graphs', link: '/advanced/dynamic-graphs' },
+            { text: 'Tool Retry & Fallback', link: '/advanced/tool-retry' },
+            { text: 'Graph Validation', link: '/advanced/graph-validation' }
+          ]
+        },
+        {
           text: 'Advanced Topics',
           items: [
             { text: 'RAG Integration', link: '/advanced/rag-integration' },
