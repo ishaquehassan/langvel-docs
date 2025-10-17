@@ -673,6 +673,6 @@ class MemoryAgent(Agent):
 
 ## Next Steps
 
-- Explore [Advanced Patterns](/advanced/patterns) for memory usage
 - Learn about [Multi-Agent Systems](/advanced/multi-agent) with shared memory
-- Check [API Reference](/api-reference/memory) for complete documentation
+- Check [Memory Manager API Reference](/api-reference/memory-manager) for complete documentation
+- Explore [RAG Integration](/advanced/rag-integration) for knowledge-enhanced agents
