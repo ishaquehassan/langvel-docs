@@ -143,7 +143,7 @@ langvel agent list
 You should see:
 
 ```
-✓ Langvel v1.0.0
+✓ Langvel v0.1.0
 ✓ Python 3.11.7
 ✓ LangGraph 0.2.40
 ```

@@ -16,7 +16,7 @@ export default defineConfig({
       { text: 'Guide', link: '/architecture/agents' },
       { text: 'API Reference', link: '/api-reference/agent' },
       {
-        text: 'v1.0.0',
+        text: 'v0.1.0',
         items: [
           { text: 'Changelog', link: 'https://github.com/ishaquehassan/langvel/blob/main/CHANGELOG.md' },
           { text: 'Contributing', link: 'https://github.com/ishaquehassan/langvel/blob/main/CONTRIBUTING.md' }
