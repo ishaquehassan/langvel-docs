@@ -45,6 +45,7 @@ export default defineConfig({
             { text: 'Agents', link: '/architecture/agents' },
             { text: 'State Models', link: '/architecture/state-models' },
             { text: 'Graph Building', link: '/architecture/graph-building' },
+            { text: 'Fluent API', link: '/architecture/fluent-api' },
             { text: 'Lifecycle', link: '/architecture/lifecycle' },
             { text: 'Service Container', link: '/architecture/service-container' }
           ]
