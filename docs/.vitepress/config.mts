@@ -9,8 +9,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
-      light: '/assets/logo-for-light.png',
-      dark: '/assets/logo-for-dark.png'
+      light: '/logo-for-light.png',
+      dark: '/logo-for-dark.png'
     },
 
     nav: [

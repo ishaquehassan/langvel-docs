@@ -6,8 +6,8 @@ hero:
   text: "Laravel-Inspired LangGraph Framework"
   tagline: Build powerful AI agents with familiar, elegant syntax
   image:
-    light: /assets/logo-for-light.png
-    dark: /assets/logo-for-dark.png
+    light: /logo-for-light.png
+    dark: /logo-for-dark.png
     alt: Langvel
   actions:
     - theme: brand
