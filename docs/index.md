@@ -134,18 +134,6 @@ Extensive guides, tutorials, API references, and real-world examples to get you 
 
 </div>
 
-## Trusted By Developers
-
-<div class="testimonials">
-
-> "Finally, a framework that brings Laravel's elegance to AI agent development. The DX is incredible!"
-
-> "We migrated from pure LangGraph to Langvel and our development velocity doubled. Highly recommend!"
-
-> "The built-in LLM support and RAG integration saved us weeks of boilerplate. Game changer."
-
-</div>
-
 ## What's Next?
 
 <div class="next-steps">
@@ -169,17 +157,6 @@ Extensive guides, tutorials, API references, and real-world examples to get you 
   padding: 1.5rem;
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
-}
-
-.testimonials {
-  margin: 2rem 0;
-}
-
-.testimonials blockquote {
-  border-left: 3px solid var(--vp-c-brand);
-  padding-left: 1rem;
-  margin: 1rem 0;
-  font-style: italic;
 }
 
 .next-steps {
