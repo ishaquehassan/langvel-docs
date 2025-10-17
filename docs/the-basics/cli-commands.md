@@ -518,6 +518,118 @@ The generated PNG shows:
 - Parallel execution paths
 - Loop structures
 
+### `langvel agent studio`
+
+Launch LangGraph Studio for visual debugging and interactive testing of your agents.
+
+```bash
+langvel agent studio <agent_path> [--port PORT]
+```
+
+**Arguments:**
+- `agent_path` - Agent route path (e.g., `/support`)
+
+**Options:**
+- `--port` - Port to run Studio on (default: `8123`)
+
+**Example:**
+
+```bash
+# Launch Studio with default port
+langvel agent studio /support
+
+# Custom port
+langvel agent studio /order --port 8200
+```
+
+**What Happens:**
+1. ✓ Checks for required API keys (prompts if missing)
+2. ✓ Automatically saves keys to `.env` file
+3. ✓ Generates Studio-compatible graph
+4. ✓ Generates `langgraph.json` configuration
+5. ✓ Auto-installs `langgraph-cli[inmem]` if needed
+6. ✓ Launches Studio server
+7. ✓ Opens browser automatically
+8. ✓ Cleans up temp files on exit
+
+**Studio automatically opens at:**
+```
+https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:8123
+```
+
+**Studio Features:**
+- 📊 **Visual Graph**: See your workflow as a visual diagram
+- ▶️ **Step-by-Step Execution**: Run nodes one at a time
+- 🔍 **State Inspection**: View state at each step
+- 🐛 **Live Debugging**: See exactly what's happening
+- ⏸️ **Breakpoints**: Pause at interrupt points
+- 📝 **Execution History**: Review all past runs
+- 🧪 **Interactive Testing**: Test with different inputs
+- 📈 **Performance Metrics**: Track execution times
+
+**Requirements:**
+- OpenAI or Anthropic API key (for LLM agents)
+- LangSmith API key (optional, for tracing)
+
+**Example Session:**
+
+```bash
+$ langvel agent studio /customer-support
+
+🎨 Launching LangGraph Studio
+
+Agent: /customer-support
+Port: 8123
+
+Checking API keys...
+✓ OpenAI API key found
+✓ LangSmith API key found
+
+✓ Generated Studio entry point
+✓ Generated langgraph.json
+
+🚀 Starting LangGraph Studio on port 8123
+
+Studio URLs:
+  • Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:8123
+  • API: http://127.0.0.1:8123
+  • Docs: http://127.0.0.1:8123/docs
+
+Press Ctrl+C to stop
+```
+
+**First-Time Setup:**
+
+If API keys are not configured, Studio will prompt you:
+
+```bash
+⚠  OpenAI API key not found or invalid in .env
+Enter your OpenAI API key (or press Enter to skip): sk-...
+✓ OpenAI API key saved to .env
+
+⚠  LangSmith API key not found (optional for tracing)
+Enter your LangSmith API key (or press Enter to skip): lsv2_pt_...
+✓ LangSmith API key saved to .env
+```
+
+**Use Cases:**
+- 🐛 **Debug Complex Workflows**: Step through execution to find issues
+- 🧪 **Test Edge Cases**: Try different inputs interactively
+- 📊 **Understand Flow**: Visualize how data moves through nodes
+- 👀 **Live Development**: See changes as you modify your agent
+- 🎓 **Learn LangGraph**: Understand how agents work visually
+- 🔍 **Inspect State**: View state transformations at each step
+
+**Tips:**
+- Keep Studio open while developing for quick testing
+- Use breakpoints (`.interrupt()`) for approval flows
+- Check state changes between nodes to verify logic
+- Test with real-world inputs to catch edge cases
+
+**Related:**
+- [LangSmith Setup Guide](/advanced/observability) - Configure tracing
+- [Graph Visualization](/the-basics/cli-commands#langvel-agent-graph) - Generate static graph images
+
 ## Version
 
 Display the current version of Langvel.
