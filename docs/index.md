@@ -1,10 +1,13 @@
 ---
 layout: home
+title: Langvel - Laravel-Inspired LangGraph Framework
+titleTemplate: Build Powerful AI Agents with Python
+description: Build production-ready AI agents with Laravel-inspired syntax. Full LangGraph power with elegant abstractions, RAG integration, MCP servers, multi-agent coordination, observability, and more.
 
 hero:
   name: "Langvel"
   text: "Laravel-Inspired LangGraph Framework"
-  tagline: Build powerful AI agents with familiar, elegant syntax
+  tagline: Build powerful AI agents with familiar, elegant syntax. Production-ready features, zero boilerplate.
   image:
     light: /logo-for-light.png
     dark: /logo-for-dark.png

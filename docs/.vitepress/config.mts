@@ -3,8 +3,52 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Langvel",
-  description: "A Laravel-inspired framework for building LangGraph agents",
+  description: "A Laravel-inspired framework for building LangGraph agents with elegant syntax, powerful abstractions, and production-ready features",
   base: '/langvel-docs/', // GitHub Pages base path
+
+  // SEO & Meta Tags
+  lang: 'en-US',
+  head: [
+    // Favicon
+    ['link', { rel: 'icon', type: 'image/png', href: '/langvel-docs/logo-for-light.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/langvel-docs/logo-for-light.png' }],
+
+    // SEO Meta Tags
+    ['meta', { name: 'author', content: 'Langvel Contributors' }],
+    ['meta', { name: 'keywords', content: 'langvel, langgraph, laravel, python, ai agents, llm, langchain, rag, mcp, framework, ai framework, agentic ai, multi-agent, langsmith, anthropic, openai, claude, gpt-4' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['meta', { name: 'language', content: 'English' }],
+    ['meta', { name: 'revisit-after', content: '7 days' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+
+    // Open Graph / Facebook
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://ishaquehassan.github.io/langvel-docs/' }],
+    ['meta', { property: 'og:title', content: 'Langvel - Laravel-Inspired LangGraph Framework' }],
+    ['meta', { property: 'og:description', content: 'Build powerful AI agents with familiar Laravel-inspired syntax. Full LangGraph power with elegant abstractions, RAG, MCP, multi-agent coordination, and production-ready features.' }],
+    ['meta', { property: 'og:image', content: 'https://ishaquehassan.github.io/langvel-docs/logo-for-light.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:site_name', content: 'Langvel' }],
+    ['meta', { property: 'og:locale', content: 'en_US' }],
+
+    // Twitter Card
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:url', content: 'https://ishaquehassan.github.io/langvel-docs/' }],
+    ['meta', { name: 'twitter:title', content: 'Langvel - Laravel-Inspired LangGraph Framework' }],
+    ['meta', { name: 'twitter:description', content: 'Build powerful AI agents with familiar Laravel-inspired syntax. Full LangGraph power with elegant abstractions, RAG, MCP, and production-ready features.' }],
+    ['meta', { name: 'twitter:image', content: 'https://ishaquehassan.github.io/langvel-docs/logo-for-light.png' }],
+
+    // Additional SEO
+    ['meta', { name: 'application-name', content: 'Langvel' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Langvel' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }],
+    ['meta', { name: 'format-detection', content: 'telephone=no' }],
+
+    // Canonical URL
+    ['link', { rel: 'canonical', href: 'https://ishaquehassan.github.io/langvel-docs/' }],
+  ],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -168,5 +212,16 @@ export default defineConfig({
       dark: 'github-dark'
     },
     lineNumbers: true
-  }
+  },
+
+  // Sitemap
+  sitemap: {
+    hostname: 'https://ishaquehassan.github.io/langvel-docs/'
+  },
+
+  // Clean URLs
+  cleanUrls: true,
+
+  // Last updated timestamp
+  lastUpdated: true
 })
