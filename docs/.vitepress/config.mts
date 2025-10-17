@@ -129,6 +129,7 @@ export default defineConfig({
         {
           text: 'Advanced Topics',
           items: [
+            { text: 'Memory Systems', link: '/advanced/memory-systems' },
             { text: 'RAG Integration', link: '/advanced/rag-integration' },
             { text: 'MCP Servers', link: '/advanced/mcp-servers' },
             { text: 'Multi-Agent Systems', link: '/advanced/multi-agent' },
@@ -167,6 +168,7 @@ export default defineConfig({
             { text: 'Middleware', link: '/api-reference/middleware' },
             { text: 'Tools', link: '/api-reference/tools' },
             { text: 'LLM Manager', link: '/api-reference/llm-manager' },
+            { text: 'Memory Manager', link: '/api-reference/memory-manager' },
             { text: 'RAG Manager', link: '/api-reference/rag-manager' },
             { text: 'MCP Manager', link: '/api-reference/mcp-manager' },
             { text: 'Auth Manager', link: '/api-reference/auth-manager' }
