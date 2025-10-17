@@ -195,7 +195,7 @@ Run the development server:
 langvel agent serve --port 8000
 ```
 
-Visit http://localhost:8000/docs to see the auto-generated API documentation!
+Visit `http://localhost:8000/docs` to see the auto-generated API documentation!
 
 ## Step 8: Call Your Agent via HTTP
 

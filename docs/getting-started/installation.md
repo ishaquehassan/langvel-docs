@@ -366,4 +366,3 @@ If you encounter issues:
 - 📚 Check [Troubleshooting](#troubleshooting) above
 - 💬 Ask in [Discord](https://discord.gg/langvel)
 - 🐛 [Report a bug](https://github.com/yourusername/langvel/issues)
-- 📖 Read [FAQ](/faq)
