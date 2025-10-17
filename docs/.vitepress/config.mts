@@ -18,8 +18,8 @@ export default defineConfig({
       {
         text: 'v1.0.0',
         items: [
-          { text: 'Changelog', link: 'https://github.com/yourusername/langvel/blob/main/CHANGELOG.md' },
-          { text: 'Contributing', link: 'https://github.com/yourusername/langvel/blob/main/CONTRIBUTING.md' }
+          { text: 'Changelog', link: 'https://github.com/ishaquehassan/langvel/blob/main/CHANGELOG.md' },
+          { text: 'Contributing', link: 'https://github.com/ishaquehassan/langvel/blob/main/CONTRIBUTING.md' }
         ]
       }
     ],
@@ -129,8 +129,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/langvel' },
-      { icon: 'discord', link: 'https://discord.gg/langvel' }
+      { icon: 'github', link: 'https://github.com/ishaquehassan/langvel' }
     ],
 
     footer: {
@@ -143,7 +142,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/yourusername/langvel-docs/edit/main/docs/:path',
+      pattern: 'https://github.com/ishaquehassan/langvel-docs/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     }
   },

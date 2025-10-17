@@ -15,7 +15,7 @@ The fastest way to get started with Langvel:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/langvel.git
+git clone https://github.com/ishaquehassan/langvel.git
 cd langvel
 
 # Run automated setup
@@ -338,7 +338,7 @@ For contributing to Langvel:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/langvel.git
+git clone https://github.com/ishaquehassan/langvel.git
 cd langvel
 
 # Install with dev dependencies
@@ -365,4 +365,4 @@ If you encounter issues:
 
 - 📚 Check [Troubleshooting](#troubleshooting) above
 - 💬 Ask in [Discord](https://discord.gg/langvel)
-- 🐛 [Report a bug](https://github.com/yourusername/langvel/issues)
+- 🐛 [Report a bug](https://github.com/ishaquehassan/langvel/issues)

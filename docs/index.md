@@ -14,7 +14,7 @@ hero:
       link: /getting-started/installation
     - theme: alt
       text: View on GitHub
-      link: https://github.com/yourusername/langvel
+      link: https://github.com/ishaquehassan/langvel
 
 features:
   - icon: 🎯
@@ -52,7 +52,7 @@ features:
 
 ```bash [Installation]
 # Clone and setup
-git clone https://github.com/yourusername/langvel.git
+git clone https://github.com/ishaquehassan/langvel.git
 cd langvel
 python setup.py
 

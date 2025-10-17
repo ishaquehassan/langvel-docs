@@ -231,5 +231,5 @@ Ready to get started? Here's your learning path:
 
 - 📚 [Read the docs](/getting-started/installation)
 - 💬 [Join Discord](https://discord.gg/langvel)
-- 🐛 [Report issues](https://github.com/yourusername/langvel/issues)
-- 💡 [Request features](https://github.com/yourusername/langvel/discussions)
+- 🐛 [Report issues](https://github.com/ishaquehassan/langvel/issues)
+- 💡 [Request features](https://github.com/ishaquehassan/langvel/discussions)

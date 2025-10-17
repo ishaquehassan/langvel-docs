@@ -458,4 +458,4 @@ class CustomerSupportAgent(Agent):
 
 - 💬 [Join Discord](https://discord.gg/langvel)
 - 📚 [Read Documentation](/getting-started/installation)
-- 💡 [View Examples](https://github.com/yourusername/langvel/tree/main/app/agents)
+- 💡 [View Examples](https://github.com/ishaquehassan/langvel/tree/main/app/agents)
